@@ -14,7 +14,7 @@
             String name = (String) pEnums.nextElement();
             String value = allprops.getProperty(name);
 %>
-            <br/><%=name%> = <%=value%>
+            <br/> <%=name%> = <%=value%>
 <%      }      %>
  
 </body>
